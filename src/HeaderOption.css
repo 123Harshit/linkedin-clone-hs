@@ -7,6 +7,18 @@
   cursor: pointer;
 }
 
+.headerOption_title {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.headerOption_icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+  /* important - to overcome material ui stylings */
+}
+
 .headerOption:hover {
   color: black;
 }
